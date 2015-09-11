@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game\Scripts\Game\Configuration\SocialNetworkConfig.cs">
+    <Files>
+      <File FileName="Assets\Game\Scripts\Game\Configuration\SocialNetworkConfig.cs" Line="18" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ezequiel\Desktop\u3d_VirtualScrum\unity4.5\VirtualScrumPackage\cliente\Assets\Game\Scripts\Lobby\LobbyGUI.cs" line="757" />
+      <Breakpoint file="C:\Users\Ezequiel\Desktop\u3d_VirtualScrum\unity4.5\VirtualScrumPackage\cliente\Assets\Game\Scripts\Lobby\LobbyGUI.cs" line="107" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
