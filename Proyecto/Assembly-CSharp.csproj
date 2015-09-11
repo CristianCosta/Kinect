@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BB1332E7-B8EF-79C1-A990-5E869B40F5DB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_3;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Awesomium\Awesomium\WebCoreInitializer.cs" />
+     <Compile Include="Assets\Awesomium\Awesomium\WebTextureHandler.cs" />
+     <Compile Include="Assets\Awesomium\GUI\IWindow.cs" />
+     <Compile Include="Assets\Awesomium\GUI\WindowManager.cs" />
+     <Compile Include="Assets\Awesomium\WebViewFromHTML.cs" />
+     <Compile Include="Assets\Awesomium\WebViewTextureSample.cs" />
+     <Compile Include="Assets\Camarino\Dressingroom\Main.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Game\LevelManager.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Game\ScreenResizer.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Level\Ball.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Level\BallComparator.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Level\CheckFailAnimationBB.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Level\Clock.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Level\LevelData.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Level\LevelLogic.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\BB_LoadConfig.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\Exit.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\HighScoresManagerBB.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\MenuBB.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\OnInstructions.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\OnNextInstruction.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\OnVolver.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\Play.cs" />
+     <Compile Include="Assets\EducationalGames\BigBalls\Scripts\Menu\Scores.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\Bucket_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\CameraRotation_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\CheckButton_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\Clock_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\GameCore_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\InGameQuitButton_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\MoveBalls_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\ResetPosition_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\RetryButton_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\Timer_Script_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Level\maxCamera.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Menu\Menu_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\Fractions\Scripts\Menu\cambioColorBoton_Fractions.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\DoorLogManager.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\ExitMenuButton.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\GameLogManager.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\GameMenuButton.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\HighScoreData.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\News.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\NewsManager.cs" />
+     <Compile Include="Assets\EducationalGames\GeneralScripts\ShowRanking.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Botones\LB_Borrar.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Botones\LB_Drag.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Botones\LB_Ejecutar.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Botones\LB_MovementManager.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Character\LB_Action.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Character\LB_MaxComp.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Demo\LB_DemoManager.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\LevelLogic\LB_CoordinatesMapper.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\LevelLogic\LB_LevelGenerator.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\LevelLogic\LB_LevelManager.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\LevelLogic\LB_LightSolution.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\LevelLogic\LB_Obstaculo.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\LevelLogic\LB_Solucion.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_EndGame.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_FocusOption.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_HighScoresManager.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_OnInstructions.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_OnMenu.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_OnPlay.cs" />
+     <Compile Include="Assets\EducationalGames\LightBot\Scripts\Menu\LB_OnScore.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Card\Card.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Card\CardBehaviour.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Card\CardComparator.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Clock\SetValueToClock.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Clock\timerScript.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Core\Board.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Core\CheckFailAnimationMemo.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Core\GameCore.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Core\Point.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\EndGame\ExitGame.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Level\Level.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Menu\MenuMemo.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\ObserverPattern\IObservable.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\ObserverPattern\IObserver.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Sounds\BackToMenu.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Sounds\PlayOnClick.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Sounds\PlayOnMouseEnter.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\BlueTextColor.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\ChangeTextColor.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\GreenFontColor.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\SetValues.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\ShowBackground.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\TextScript.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Text\YellowFontColor.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Tools\CardsReader.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Tools\LevelsReader.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\Tools\Reader.cs" />
+     <Compile Include="Assets\EducationalGames\Memo\Scripts\XmlFile.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Application\OTActionAdd.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Application\OTActionCall.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Application\OTActionDebug.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Application\OTActionDestroy.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Application\OTActionSet.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Application\OTActionWait.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Graphics\OTActionFade.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Graphics\OTActionFadeIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Graphics\OTActionFadeOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Graphics\OTActionHide.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\Graphics\OTActionShow.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionMove.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionMoveBy.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionRotate.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionRotateBy.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionSize.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionSizeBy.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\OTActionTween.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\_Base\OTAction.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\_Base\OTActionController.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\_Base\OTActionTree.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Actions\_Base\OTActionTreeElement.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Animation\OTMovementController.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\OTView.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTAtlasData.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlas.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasBMFontXml.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasCocos2D.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasCocos2DFnt.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImport.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImportText.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImportXML.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasOGRE.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\Atlas\OTSpriteAtlasSparrow.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimatingSprite.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimation.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTAnimationFrameset.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTContainer.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTFilledSprite.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTGradientSprite.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTScale9Sprite.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTSprite.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTSpriteSheet.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Graphics\Sprites\OTTextSprite.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEase.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseBackIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseBackInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseBackOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseBounceIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseBounceInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseBounceOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseCircIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseCircInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseCircOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseCubicIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseCubicInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseCubicOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseElasticIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseElasticInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseElasticOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseExpoIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseExpoInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseExpoOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseLinear.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuadIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuadInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuadOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuartIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuartInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuartOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuintIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuintInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseQuintOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseSineIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseSineInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseSineOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseStrongIn.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseStrongInOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEaseStrongOut.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTEasing.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTTween.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\Tweening\OTTweenController.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OT.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTController.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTDevTrace.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTMatRef.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTObject.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTObjectType.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTPB.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTSounds.cs" />
+     <Compile Include="Assets\EducationalGames\Orthello\Standard Assets\OT\_Base\OTTimeCycle.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Button_Backspace.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Button_Exit.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Button_MixLetters.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Button_NewWord.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Button_New_Letter.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Button_Ok.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Controller_Camera.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Controller_NewWord.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Controller_Scores.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Controller_SelectedWord.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Controller_SolutionsVisualization.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\CurrentConfig.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Dictionary.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Game.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\LetterSelected.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\MenuWC.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\TextFileReader.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\Timer_Script.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\TutorialWC.cs" />
+     <Compile Include="Assets\EducationalGames\Word Challenge\Scripts\XML_Parser.cs" />
+     <Compile Include="Assets\Game\Scripts\ConfVs\ConfVS.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\BotonVer.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_AsociarTest.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_CargarAcceptanceCriteria.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_CargarTask.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_CargarTest.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_CargarUS.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_DetalleCriterio.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_DetalleItemTest.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_DetalleStory.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_DetalleTest.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_Error.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_ItemATestear.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_Mensaje.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_NuevoSprint.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_Ok.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_ResultadoTest.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\GUI_Testing.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\Skin.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\activarDetalleStory.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\activarDetalleTarea.cs" />
+     <Compile Include="Assets\Game\Scripts\GUInterface\windowsManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Browser\webBrowserManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\AudioWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\ConfigButton.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\ConfigWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\ConfigurationConstants.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\ConfigurationMenu.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\GameConfiguration.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\JugabilidadWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\SFSExtensionManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\SocialNetworkConfig.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\SocialNetworkWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\SoundManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\SoundSourceManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\VideoCallWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Configuration\VideoWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\GUIExtras\ComboBox.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\DeleteAfterSeconds.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\NetworkManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\NetworkTransform.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\NetworkTransformInterpolation.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\NetworkTransformReceiver.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\NetworkTransformSender.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\OauthServiceConfiguration.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\OauthServiceConnector.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\PlayerScore.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\SmartFoxConnection.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\TimeManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Network\WebServiceComunicator.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Rooms\ChangeRoom.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Rooms\doorManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\CallManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\CountDownTimer.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\Dispatcher.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\EncodeImage.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\FinishVideoCall.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\FrameDispatcher.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\JPGConector.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\JPGEncoder.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\RoomVariableManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\RtpPacket.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\Runnable.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\ShowImages.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\TutorialWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\UDPMediaClient.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\UDPReceive.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\UDPSend.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\UserDataVideoConection.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\VidFrame.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\VideoAllow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\VideoCallManagerWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Game\Video\VideoSuscribeWindow.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\ChatGUI.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\CustomizationManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\GameHUD.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\GameLayers.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\GestosGUI.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\LobbyConf.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\LobbyGUI.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\ManagerDB.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\MensajeManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\NameManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\TokenManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\TutorialManagerDB.cs" />
+     <Compile Include="Assets\Game\Scripts\Lobby\helpTutorial.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Animation\AnimationSynchronizer.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Clothes\CaroClothes.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Clothes\ChangeAvatarTexture.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Clothes\JaneClothes.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Clothes\TylorClothes.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Info\AvatarInfo.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Info\PlayerInfo.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Input\KeyControl.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Input\RootMotionCharacter.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Input\RootMotionComputer.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Manager\ChangeClothesManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Manager\PlayerManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Manager\PlayerSoundManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Manager\SelectedPlayers.cs" />
+     <Compile Include="Assets\Game\Scripts\Players\Mouse\MouseLook.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\AvanzarUSPoker.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\BackSprintBurndown.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\BackStories.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\ButtonItemBehaviour.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\CameraSwitcher.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Carta.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\ChangeCamera.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Cuadricula.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\CuadriculaCompleja.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\CuadriculaPoker.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Estimacion.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUIComponents.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_CargarCampoDailyMeeting.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_CargarDM.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_CargarDailyPanel.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_CerrarSprint.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_CerrarUS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_DetalleEstimacion.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_DetalleTarea.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_DetalleTareaUs.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_activarDetalleMinuta.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\GUI_detalleMinuta.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Gui_estimacion.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Ingresar_VS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\ItemBehaviour.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\LoginGUI.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\AcceptanceCriteria.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\AsociacionTareaTest.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\BurnDown.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\DailyMeeting.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\ItemModelo.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\Sprint.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\Task.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\Test.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\UserStory.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Modelo\UserVS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\MultiCameras.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\MultiPlayer.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\NextSprintBurndown.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\NextStories.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\PokerUS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\SelectSprint.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DCubo.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DCuboItem.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DCuboSprint.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DCuboTask.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DCuboUS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DPlane.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DPlaneDM.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\Text3DPlaneUS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\avanzarDailyMeetingPanel.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\avanzarQuadTaskboard.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\avanzarUSTaskboard.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\burnDownWWW.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\buttonTextures.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\crearPlanningPoker.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\crearPlanoTask.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\crearPlanoUS.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\cuadriculaSprint.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\habilitarEstimacion.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\retrocederMinutaDM.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\taskBehaviour.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\usBehaviour.cs" />
+     <Compile Include="Assets\Game\Scripts\ScriptsPanelesVS\usPlaneBehavior.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\CrearPlanoTest.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\EjecucionTest.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\GUI_InfoTesting.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\ParserXML.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\PlanoTest.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\TestAdapter.cs" />
+     <Compile Include="Assets\Game\Scripts\Test\TestUnityTestTools.cs" />
+     <Compile Include="Assets\Game\Scripts\Tutorial\EventoAleatorio.cs" />
+     <Compile Include="Assets\Game\Scripts\Tutorial\EventoSimple.cs" />
+     <Compile Include="Assets\InteractionDemo\Scripts\GrabDropScript.cs" />
+     <Compile Include="Assets\InteractionDemo\Scripts\GuiWindowScript.cs" />
+     <Compile Include="Assets\KinectScripts\BackgroundManager.cs" />
+     <Compile Include="Assets\KinectScripts\BackgroundWrapper.cs" />
+     <Compile Include="Assets\KinectScripts\FacetrackingManager.cs" />
+     <Compile Include="Assets\KinectScripts\FacetrackingWrapper.cs" />
+     <Compile Include="Assets\KinectScripts\InteractionManager.cs" />
+     <Compile Include="Assets\KinectScripts\InteractionWrapper.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\MouseControl.cs" />
+     <Compile Include="Assets\KinectScripts\SpeechErrorHandler.cs" />
+     <Compile Include="Assets\KinectScripts\SpeechManager.cs" />
+     <Compile Include="Assets\KinectScripts\SpeechWrapper.cs" />
+     <Compile Include="Assets\KinectScripts\WrapperTools.cs" />
+     <Compile Include="Assets\Standar Assets\Buttons\Buttons\ButtonPress.cs" />
+     <Compile Include="Assets\VSInteractionManager.cs" />
+     <Compile Include="Assets\cargarSalas.cs" />
+     <Compile Include="Assets\dashbordVSConfig.cs" />
+     <None Include="Assets\Resources\SpeechGrammar.grxml.txt" />
+     <None Include="Assets\Game\Scripts\ScriptsPanelesVS\3d Text.shader" />
+     <None Include="Assets\Camarino\Dressingroom\MirrorReflection\MirrorReflection.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Awesomium.Unity">
+ <HintPath>D:/WorkSpaceUnity3D/ProyectoU3d/VirtualScrum/VirtualScrum/Assets/Awesomium/Awesomium.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="SmartFox2">
+ <HintPath>D:/WorkSpaceUnity3D/ProyectoU3d/VirtualScrum/VirtualScrum/Assets/Plugins/SmartFox2.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

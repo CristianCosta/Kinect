@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 103ab3f0fa6955b4bb8bceecb4593d24
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gSkin: {instanceID: 0}
+  - b1: {fileID: 2800000, guid: 539909f268aad2440aaed02f96de325c, type: 3}
+  - b2: {fileID: 2800000, guid: 2781c878a54fb564f9729282f325b476, type: 3}
+  - b3: {fileID: 2800000, guid: a0c4abebe8cb50e488b59a3780f66479, type: 3}
+  - b4: {fileID: 2800000, guid: e66303ef6bf3f9d4ea93968e31b37a27, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
